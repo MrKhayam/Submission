@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-full h-full bg-[#fff] overflow-x-hidden">
+    
+
+    <!-- ================Navbar Starts Here=============== -->
+
+
+
+    <nav class="w-full fixed top-0 h-auto z-40">
+        <div class="navbar bg-[#ffffff41] backdrop-blur-sm shadow md:w-[80%] w-[95%] flex items-center justify-between mx-auto md:px-10 px-4 py-5 rounded-lg mt-5">
+            <div class="logo">
+                <h1 class="text-lg font-bold">KI.</h1>
+            </div>
+            <ul class="listsParent md:flex hidden gap-10 text-md">
+                <li class="cursor-pointer navLis">Home</li>
+                <li class="cursor-pointer navLis">About</li>
+                <li class="cursor-pointer navLis">Skills</li>
+                <li class="cursor-pointer navLis">Projects</li>
+                <li class="cursor-pointer navLis">Contact</li>
+            </ul>
+            <div class="md:hidden block"><i class="menu md:hidden text-lg font-bold ri-menu-3-fill"></i></div>
+        </div>
+    </nav>
+
+
+
+        <!-- Responsive Navbar -->
+        <div class="responsiveNavbar z-50 right-[-100%] md:hidden fixed top-0 w-full h-full bg-white">
+            <i class="cross ri-close-circle-fill absolute top-[5%] text-4xl right-[10%]"></i>
+            <div class="resMenu w-full gap-10 mt-20 px-10 py-10 flex flex-col">
+                <h1 class="cursor-pointer resLis border-b border-black py-2 text-lg">Home</h1>
+                <h1 class="cursor-pointer resLis border-b border-black py-2 text-lg">About</h1>
+                <h1 class="cursor-pointer resLis border-b border-black py-2 text-lg">Skills</h1>
+                <h1 class="cursor-pointer resLis border-b border-black py-2 text-lg">Projects</h1>
+                <h1 class="cursor-pointer resLis border-b border-black py-2 text-lg">Contact</h1>
+            </div>
+        </div>
+        <!-- Responsive Navbar -->
+
+
+<!-- ================Navbar Ends Here=============== -->
+
+
+
+<!-- ===================Hero Section Starts Here==================== -->
+
+<div class="hero w-full md:w-[80%] md:mx-auto md:gap-10 md:justify-center md:min-h-[70vh] md:mt-40 min-h-[80vh] mt-24 md:items-center flex md:flex-row-reverse flex-col items-center">
+    <div class="upper flex items-center md:w-[40%] justify-center h-[40vh] md:h-[30%] w-[50%] h-[50%]">
+        <img class="rounded-full w-full h-full" src="./assets/my.png" alt="">
+    </div>
+    <div class="lower md:min-h-[60vh] md:w-[60%] flex md:flex flex-col md:flex-col md:text-left text-center md:items-start items-center md:justify-center w-full">
+        <h1 class="text-3xl my-2 font-bold md:text-6xl md:my-5">Khayam Ijaz</h1>
+        <p class="px-4 md:px-0 md:w-[99%] md:text-xl">Hi there! I'm Khayam, a passionate and innovative Frontend
+        Developer. I
+        specialize in transforming ideas into stunning, interactive
+        digital experiences with a perfect blend of design finesse and
+        technical expertise. Explore my work and see how
+        creativity meets code to craft something extraordinary. Ready to
+        turn your ideas into reality? Let's make the web a more
+        beautiful place together!</p>
+        <div class="btns">
+            <button class="px-3 py-3 md:py-4 border-2 border-black md:px-9 bg-black text-white rounded-lg font-semibold my-4">Portfolio</button>
+            <button class="px-3 py-3 md:py-4 md:px-9 text-black border-2 border-black rounded-lg font-semibold">Contact</button>
+        </div>
+    </div>
+</div>
+
+<!-- ===================Hero Section Ends Here==================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+</html>
