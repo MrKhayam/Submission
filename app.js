@@ -28,3 +28,9 @@ menu.addEventListener('click',()=>{
 cross.addEventListener('click',()=>{
     tl2.reverse();
 });
+
+
+
+
+
+
